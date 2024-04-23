@@ -14,6 +14,7 @@
 		13B9FDC22BD7EFCC009C12D5 /* CheffDeliveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B9FDC12BD7EFCC009C12D5 /* CheffDeliveryTests.swift */; };
 		13B9FDCC2BD7EFCC009C12D5 /* CheffDeliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B9FDCB2BD7EFCC009C12D5 /* CheffDeliveryUITests.swift */; };
 		13B9FDCE2BD7EFCC009C12D5 /* CheffDeliveryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B9FDCD2BD7EFCC009C12D5 /* CheffDeliveryUITestsLaunchTests.swift */; };
+		13E937022BD82BA000A82CB6 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E937012BD82BA000A82CB6 /* NavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		13B9FDC72BD7EFCC009C12D5 /* CheffDeliveryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheffDeliveryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B9FDCB2BD7EFCC009C12D5 /* CheffDeliveryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheffDeliveryUITests.swift; sourceTree = "<group>"; };
 		13B9FDCD2BD7EFCC009C12D5 /* CheffDeliveryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheffDeliveryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		13E937012BD82BA000A82CB6 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,8 @@
 		13B9FDAF2BD7EFC9009C12D5 /* CheffDelivery */ = {
 			isa = PBXGroup;
 			children = (
-				13B9FDB02BD7EFC9009C12D5 /* CheffDeliveryApp.swift */,
-				13B9FDB22BD7EFC9009C12D5 /* ContentView.swift */,
+				13E937002BD82B8800A82CB6 /* NavigationBar */,
+				13E936FF2BD82B7D00A82CB6 /* App */,
 				13B9FDB42BD7EFCB009C12D5 /* Assets.xcassets */,
 				13B9FDB62BD7EFCB009C12D5 /* Preview Content */,
 			);
@@ -125,6 +127,23 @@
 				13B9FDCD2BD7EFCC009C12D5 /* CheffDeliveryUITestsLaunchTests.swift */,
 			);
 			path = CheffDeliveryUITests;
+			sourceTree = "<group>";
+		};
+		13E936FF2BD82B7D00A82CB6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				13B9FDB02BD7EFC9009C12D5 /* CheffDeliveryApp.swift */,
+				13B9FDB22BD7EFC9009C12D5 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		13E937002BD82B8800A82CB6 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				13E937012BD82BA000A82CB6 /* NavigationBar.swift */,
+			);
+			path = NavigationBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +278,7 @@
 			files = (
 				13B9FDB32BD7EFC9009C12D5 /* ContentView.swift in Sources */,
 				13B9FDB12BD7EFC9009C12D5 /* CheffDeliveryApp.swift in Sources */,
+				13E937022BD82BA000A82CB6 /* NavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
