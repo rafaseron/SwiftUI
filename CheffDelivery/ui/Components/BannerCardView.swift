@@ -19,13 +19,15 @@ let imageList: [ImageItem] = [ImageItem(id: 1, photo: "barbecue-banner"), ImageI
 
 struct BannerCardView: View {
         var body: some View {
-            ScrollView(.horizontal, showsIndicators: false){
-                HStack{
-                    ForEach(imageList){ image in
-                        Image(image.photo)
-                    }
+            TabView{
+                ForEach(imageList){ image in
+                    Image(image.photo)
+                        .resizable()
+                        .scaledToFit()
+                        .cornerRadius(3)
                 }
-            }
+            }.frame(height: 180)
+                .tabViewStyle(.page(indexDisplayMode: .always))
     }
 }
 
