@@ -14,9 +14,11 @@ struct HomeScreen: View {
                 .padding(.horizontal, 15)
             
             ScrollView(.vertical, showsIndicators: false){
-                VStack{
+                VStack(spacing: 20){
                     CategoriasGridView(categoriaList: listaCategorias)
-                }.frame(width: 370, height: 250)
+                        .padding(.top, 50)
+                    CarouselBanners(bannerList: imageList)
+                }.frame(height: 350)
             }
             
         }
