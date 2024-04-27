@@ -9,16 +9,20 @@ import SwiftUI
 
 struct HomeScreen: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 30) {
             NavigationBar()
                 .padding(.horizontal, 15)
             
             ScrollView(.vertical, showsIndicators: false){
-                VStack(spacing: 20){
+                LazyVStack(spacing: 20){
                     CategoriasGridView(categoriaList: listaCategorias)
                         .padding(.top, 50)
                     CarouselBanners(bannerList: imageList)
-                }.frame(height: 350)
+                    
+                    ShopsList(shopsList: listaDeLojas)
+                    
+                }.offset(y: -70)
+                //.frame(height: 350)
             }
             
         }
