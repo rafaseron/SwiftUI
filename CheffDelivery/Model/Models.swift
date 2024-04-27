@@ -13,3 +13,9 @@ struct Categoria: Identifiable{
     let label: String
     let image: String
 }
+
+struct Loja: Identifiable{
+    let id: Int
+    let label: String
+    let image: String
+}

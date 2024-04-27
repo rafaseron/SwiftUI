@@ -16,3 +16,17 @@ let listaCategorias: [Categoria] = [
     Categoria(id: 6, label: "Pet", image: "petshop"),
     Categoria(id: 7, label: "Bebidas", image: "bebidas")
 ]
+
+let listaDeLojas: [Loja] = [
+    Loja(id: 1, label: "Açaí Panda", image: "acai-panda-logo"),
+    Loja(id: 2, label: "Padaria", image: "bakery-logo"),
+    Loja(id: 3, label: "Carbron", image: "carbron-logo"),
+    Loja(id: 4, label: "Food Court", image: "food-court-logo"),
+    Loja(id: 5, label: "Monstro Burger", image: "monstro-burger-logo"),
+]
+
+//acai-panda-logo
+//bakery-logo
+//carbron-logo
+//food-court-logo
+//monstro-burger-logo
